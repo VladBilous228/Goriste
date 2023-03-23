@@ -1,0 +1,42 @@
+.site-title a,
+.site-description {
+  color: #ffffff;
+}
+html,
+body{
+  height: 100%;
+}
+
+#info {
+  padding: 60px;
+}
+
+h2 { 
+  text-align: center 
+}
+h3 { 
+  text-align: center 
+}
+#map {
+  text-align: center 
+}
+.header-bg {
+  background-image: url( img/дім1.jfif );
+  background-repeat: no-repeat;
+}
+
+@media screen and ( min-width: 50em ) {
+  .header-bg {
+    background-attachment: scroll;
+    background-position: center;
+  }
+}
+.header-bg {
+    background-image: linear-gradient( rgba(0,0,0,0.01), rgba(0,0,0,0.6) ), url( img/golovna.jpg );
+}
+@media screen and ( min-width: 50em ) {
+    .header-bg {
+        background-attachment: scroll;
+        background-position: top center;
+                        }
+}
